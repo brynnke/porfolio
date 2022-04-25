@@ -7,9 +7,9 @@
 /* variable defintitions */
 :root {
     --header-footer-background-color: #404040;
-    --lightskyblue: lightskyblue;
+    --lightskyblue: green;
     --lightgray: lightgray;
-    --about-me-work-border: #333366;
+    --about-me-work-border: #3434ad;
     --rgba-border-color-opacity: rbga(135, 206, 250, 0.8);
 }
 /* start of semantic code */
@@ -240,3 +240,20 @@ footer a {
     grid-template-rows: repeat(3,2fr);
     gap: 20px 20px;
 }
+.footer-grid-item.contact-me {
+    padding-top: 10px;
+    font-size: 35px;
+    grid-row: 1 / span 3;
+    text-align: right;
+    padding-right: 10px;
+    border-right: 2px solid var(--lightskyblue);
+}
+.footer-grid-item.email{
+    grid-row: 2;
+}
+.footer-gird-item.git-hub{
+    grid-row: 2;
+}
+/* end of footer class */
+
+/*

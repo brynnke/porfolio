@@ -7,7 +7,7 @@
 /* variable defintitions */
 :root {
     --header-footer-background-color: #404040;
-    --lightskyblue: green;
+    --sky: green;
     --lightgray: lightgray;
     --about-me-work-border: #3434ad;
     --rgba-border-color-opacity: rbga(135, 206, 250, 0.8);
@@ -53,8 +53,8 @@ header a {
     padding-bottom: 5px;
     text-decoration: none;
     /* change colors */
-    border-bottom: 2px solid var(--lightskyblue);
-    color: var(--lightskyblue);
+    border-bottom: 2px solid var(--sky);
+    color: var(--sky);
 }
 /* end of header css */
 
@@ -69,13 +69,13 @@ body {
 
 footer {
     background-color: var(--header-footer-background-color);
-    color: var(--lightskyblue);
+    color: var(--sky);
 }
 
 footer a {
     text-decoration: none;
     border-bottom: 2px solid var(--lightgray);
-    color: var(--lightskyblue);
+    color: var(--sky);
     font-size: 1.8vw;
     font-weight: bold;
 }
@@ -86,9 +86,9 @@ footer a {
 
 /* header nav hover */
 .nav-effects a:hover{
-    color: var(--lightskyblue);
+    color: var(--sky);
     font-weight: bold;
-    text-shadow: 0px 0px 20px var(--lightskyblue);
+    text-shadow: 0px 0px 20px var(--sky);
 }
 .work-grid-container div:hover {
     mix-blend-mode: color-burn;
@@ -98,9 +98,9 @@ footer a {
 }
 /* footer hoover */
 .footer-container a:hover {
-    color: var(--lightskyblue);
+    color: var(--sky);
     font-weight: bold;
-    text-shadow: 0px 0px 20px var(--lightskyblue);
+    text-shadow: 0px 0px 20px var(--sky);
 }
 /* end of hover effects */
 
@@ -184,7 +184,7 @@ footer a {
     border-right: 2px solid var(--about-me-work-border);
 }
 /* add images of each challenge you've done so far */
-.work-item-project.challenge-1-refractor {
+.work-item-project.challenge-1 {
 
 }
 .work-item-project.run-buddy {
@@ -193,7 +193,7 @@ footer a {
 .work-item-project.password-generator {
 
 }
-.work-item-project.web-api-code-quiz {
+.work-item-project.api-code-quiz {
 
 }
 .work-item-project.work-day-scheduler {
@@ -246,7 +246,7 @@ footer a {
     grid-row: 1 / span 3;
     text-align: right;
     padding-right: 10px;
-    border-right: 2px solid var(--lightskyblue);
+    border-right: 2px solid var(--sky);
 }
 .footer-grid-item.email{
     grid-row: 2;

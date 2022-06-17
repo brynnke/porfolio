@@ -12,7 +12,9 @@ function projectClicked(input) {
     } else if (input == "work-day-scheduler"){
         window.open("https://brynnke.github.io/work-day-sched/");
     } else if (input == "project 1"){
-        window.open ("https://omarwright07.github.io/music-guru/");
+        window.open ("https://omarwright07.github.io/music-guru/");    
+    } else if (input == "full-stack project"){
+        window.open("https://unleashed-pets-finder.herokuapp.com/");
     } else {
         return true; 
     }

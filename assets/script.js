@@ -15,7 +15,8 @@ function projectClicked(input) {
         window.open ("https://omarwright07.github.io/music-guru/");    
     } else if (input == "full-stack project"){
         window.open("https://unleashed-pets-finder.herokuapp.com/");
-    } else {
-        return true; 
+    } else if (input == "MERN SPA project"){
+        window.open("https://serene-mesa-60189.herokuapp.com/");
     }
-};
+        return true; 
+    };
